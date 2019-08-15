@@ -33,7 +33,7 @@ public class TrafficController : MonoBehaviour {
 	void Update() {
 
 		// Begin traffic stream with input
-		if (Input.GetKeyDown(KeyCode.A)) {
+		if (Input.GetKeyDown(KeyCode.Space)) {
 			ResetValues();
 			isStreaming = true;
 			isEOStream = false; 
